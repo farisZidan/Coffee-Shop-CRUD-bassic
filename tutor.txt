@@ -1,0 +1,17 @@
+$result {
+    [
+    id = [],
+    nama = [];
+    gambar = [];
+    ],
+    [
+    id = [],
+    nama = [];
+    gambar = [];
+    ]
+}
+$result {
+    id = [],
+    nama = [];
+    gambar = [];
+}
