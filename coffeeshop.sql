@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Waktu pembuatan: 18 Jun 2025 pada 17.23
+-- Waktu pembuatan: 18 Jun 2025 pada 19.38
 -- Versi server: 10.4.32-MariaDB
 -- Versi PHP: 8.0.30
 
@@ -43,7 +43,9 @@ INSERT INTO `menu` (`id`, `nama`, `gambar`, `harga`, `deskripsi`) VALUES
 (1, 'Caffe Latte', 'CaffeLatte.jpeg', 25000, 'Hot Latte'),
 (2, 'Cappuchino', 'Cappuchino.jpeg', 30000, 'Cappuchino assasino'),
 (3, 'V60', 'V60.jpeg', 30000, 'Manual Brew'),
-(6, 'Americano', 'Americano.jpeg', 15000, 'Mbuh lah');
+(6, 'Americano', 'Americano.jpeg', 15000, 'Mbuh lah'),
+(8, 'Japanesse Iced coffee', '5821578c1d6303cb5c8b0e0d_iced_pour_over_kinfolk.jpg', 35000, 'Gerrrr'),
+(10, 'V60', '', 30000, 'aaa');
 
 -- --------------------------------------------------------
 
@@ -63,7 +65,7 @@ CREATE TABLE `user` (
 --
 
 INSERT INTO `user` (`id`, `username`, `password`, `role`) VALUES
-(1, 'admin', '$2y$10$sj9Gbe4.D7OXSg2WEaSyX.xftegx7/FKJhHZm84P6uKG.tHWonTsm', 'admin');
+(1, 'admin', '$2y$10$bjoSqT5AI0V5/BtzdG43dO3Z6Bg6yASCwNoTkX9.A4i4jEKq9vGRC', 'admin');
 
 --
 -- Indexes for dumped tables
@@ -89,7 +91,7 @@ ALTER TABLE `user`
 -- AUTO_INCREMENT untuk tabel `menu`
 --
 ALTER TABLE `menu`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=8;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=11;
 
 --
 -- AUTO_INCREMENT untuk tabel `user`
